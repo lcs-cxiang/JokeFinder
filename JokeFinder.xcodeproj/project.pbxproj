@@ -13,6 +13,8 @@
 		1CB89D0B2D96F5DE007D1713 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB89D082D96F5DE007D1713 /* JokeView.swift */; };
 		1CB89D0D2D96F645007D1713 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB89D0C2D96F63A007D1713 /* Joke.swift */; };
 		1CB89D0F2D96F6D4007D1713 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB89D0E2D96F6C5007D1713 /* JokeViewModel.swift */; };
+		1CF157FB2D9B5CA3003816CA /* FavoriteJokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF157FA2D9B5C96003816CA /* FavoriteJokesView.swift */; };
+		1CF157FD2D9B5CD1003816CA /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF157FC2D9B5CCD003816CA /* LandingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		1CB89D082D96F5DE007D1713 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		1CB89D0C2D96F63A007D1713 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		1CB89D0E2D96F6C5007D1713 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
+		1CF157FA2D9B5C96003816CA /* FavoriteJokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteJokesView.swift; sourceTree = "<group>"; };
+		1CF157FC2D9B5CCD003816CA /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		1CB89D092D96F5DE007D1713 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1CF157FC2D9B5CCD003816CA /* LandingView.swift */,
+				1CF157FA2D9B5C96003816CA /* FavoriteJokesView.swift */,
 				1CB89D082D96F5DE007D1713 /* JokeView.swift */,
 			);
 			path = Views;
@@ -170,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF157FD2D9B5CD1003816CA /* LandingView.swift in Sources */,
+				1CF157FB2D9B5CA3003816CA /* FavoriteJokesView.swift in Sources */,
 				1CB89D002D96F58B007D1713 /* JokeFinderApp.swift in Sources */,
 				1CB89D0B2D96F5DE007D1713 /* JokeView.swift in Sources */,
 				1CB89D0D2D96F645007D1713 /* Joke.swift in Sources */,
